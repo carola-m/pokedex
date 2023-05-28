@@ -28,7 +28,9 @@ const printPokemons = (detailPokemons) => {
         <h4> #${pokemon.id}</h4> 
         <p>HP: ${pokemon.stats[0].base_stat}</p>
         <p>-EXP: ${pokemon.base_experience}</p>
-        <p>-ATT: ${pokemon.stats[1].base_stat}</p>` 
+        <p>-ATT: ${pokemon.stats[1].base_stat}</p> 
+        <p>-DEF: ${pokemon.stats[2].base_stat}</p>
+        <p>-ESP: ${pokemon.stats[3].base_stat}</p>` 
         ol$$.appendChild(card$$);
         card$$.appendChild(li$$)
         div$$.appendChild(ol$$);  
